@@ -158,7 +158,22 @@
 </pop_up>
 <footer>
     <p>&copy 2019 Velocity300 | 2785 PCH, Suite 312, Torrance, CA. You are joining our waitlist and not submitting an application. Joining our waitlist does not guarantee approval. Fees will vary based on review of your complete business application.</p>
-</footer></body>
+</footer>
+    <hr>
+    <div style="display:block;margin-top:3em;margin-left:0px;padding-left:0px;text-align:center;">
+        <h3>Test SSN_SEC</h3>
+        <button id="ssn_sec_btn" type="button">SameSite=None; Secure</button>
+        <div id="ssn_sec">
+            <pre id="ssn_sec_value"></pre>
+        </div>
+        <h3>Test SEC_SSN</h3>
+        <button id="sec_ssn_btn" type="button">Secure; SameSite=None</button>
+        <div id="sec_ssn">
+            <pre id="sec_ssn_value"></pre>
+        </div>
+    </div>
+
+</body>
     <script type="text/javascript">
     window.onload = function() {
         document.getElementById("show-pop-up").onclick = function() {
@@ -172,4 +187,8 @@
         }
     }
     </script>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    
+    <script src="http://velocity300.com/js/hrmtst.js"></script>
+
 </html>
