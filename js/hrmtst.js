@@ -2,6 +2,7 @@ function tstSsnSec() {
     let xhr = $.ajax({
             type: 'GET',
             url: "https://local.apitunego.com/ssn_sec",
+            withCredentials: true,
             data: null,
             dataType: "json",
             success: function(data){
@@ -19,6 +20,7 @@ function tstSecSsn() {
     let xhr = $.ajax({
             type: 'GET',
             url: "https://local.apitunego.com/sec_ssn",
+            withCredentials: true,
             data: null,
             dataType: "json",
             success: function(data){
