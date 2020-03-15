@@ -5,7 +5,7 @@ function tstSsnSec() {
             data: null,
             dataType: "json",
             success: function(data){
-                $('#ssn_sec_value').text(data);
+                $('#ssn_sec_value').text(JSON.stringify(data));
                 $('#ssn_sec').show();
             },
             error: function(jqXHR, textStatus, errorThrown) {
@@ -22,7 +22,7 @@ function tstSecSsn() {
             data: null,
             dataType: "json",
             success: function(data){
-                $('#sec_ssn_value').text(data);
+                $('#sec_ssn_value').text(JSON.stringify(data));
                 $('#sec_ssn').show();
             },
             error: function(jqXHR, textStatus, errorThrown) {
