@@ -3,6 +3,8 @@ function tstSsnSec() {
             type: 'GET',
             url: "https://local.apitunego.com/ssn_sec",
             withCredentials: true,
+            contentType: "text/plain",
+            crossDomain: true,
             data: null,
             dataType: "json",
             success: function(data){
@@ -21,6 +23,8 @@ function tstSecSsn() {
             type: 'GET',
             url: "https://local.apitunego.com/sec_ssn",
             withCredentials: true,
+            contentType: "text/plain",
+            crossDomain: true,
             data: null,
             dataType: "json",
             success: function(data){
