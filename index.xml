@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Safari Audio Test</title>
-    <link>http://example.org/</link>
+    <link>https://haroldmackenzie.github.io/</link>
     <description>Recent content on Safari Audio Test</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,7 +10,7 @@
     <webMaster>hmackenzie@tunego.com (TuneGO)</webMaster>
     <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://haroldmackenzie.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
