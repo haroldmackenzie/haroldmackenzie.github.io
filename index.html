@@ -2,7 +2,7 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="media-src www.hapawillow.com;">
+<meta http-equiv="Content-Security-Policy" content="media-src *.hapawillow.com storage.googleapis.com;">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <meta name="description" content="Remove audio delay in Safari">
@@ -94,9 +94,23 @@
       <source src="https://www.hapawillow.com/audio/audio.wav" type="audio/wav">
     </audio>
   </p>
+  <p>Wav audio - no extension: 42.8 MB<br />
+    <audio controls preload="none">
+      <source src="https://www.hapawillow.com/audio/audio-wav" type="audio/wav">
+    </audio>
+  </p>
+
   <p>Mp3 audio: 8.8 MB<br />
     <audio controls preload="none">
       <source src="https://www.hapawillow.com/audio/audio.mp3" type="audio/mp3">
+    </audio>
+  </p>
+
+  <p>Big Ass Wav audio: 149.7 MB<br />
+    <audio controls preload="none">
+      
+      <source src="https://storage.googleapis.com/safari-audio-test-files/freebird.wav" type="audio/wav">
+
     </audio>
   </p>
 </div>
