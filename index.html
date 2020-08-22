@@ -2,7 +2,8 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="media-src *.hapawillow.com storage.googleapis.com;">
+<meta http-equiv="Content-Security-Policy"
+  content="media-src *.hapawillow.com storage.googleapis.com *.s3.amazonaws.com;">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <meta name="description" content="Remove audio delay in Safari">
@@ -113,6 +114,25 @@
 
     </audio>
   </p>
+
+  <p>S3 Big Wav audio - served from S3: 138.6 MB<br />
+    <audio controls preload="none">
+      
+      <source src="https://adm-testing.s3.amazonaws.com/audio-test/WAV+files/Coltrane+-+01+My+Favorite+Things.wav"
+        type="audio/wav">
+
+    </audio>
+  </p>
+
+  <p>S3 Flac audio - served from S3: 56.7 MB<br />
+    <audio controls preload="none">
+      
+      <source src="https://adm-testing.s3.amazonaws.com/audio-test/FLAC+files/audio.flac" type="audio/wav">
+
+    </audio>
+  </p>
+
+
 </div>
             </div>
         </div>
